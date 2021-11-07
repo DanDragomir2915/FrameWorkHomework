@@ -1,8 +1,0 @@
-14:08:29.360 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-14:08:29.367 [main] INFO  utils.Log - ++++ Start of test case :++smokeTest1++++++++++++++++++++++
-14:08:29.369 [main] INFO  utils.Log - +++Start time : ++ 2021.11.07.14.08.29+++++++++++++++++++++
-14:09:06.532 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-14:09:06.532 [main] ERROR utils.Log - ++++ Failed of test case :++smokeTest1+++++++++++++++++++
-14:09:06.533 [main] ERROR utils.Log - +++Failed  time : ++ 2021.11.07.14.09.06+++++++++++++++++++
-14:09:06.760 [main] ERROR utils.Log - org.testng.TestException: 
-The element is not clickable
