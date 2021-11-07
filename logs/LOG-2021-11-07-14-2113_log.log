@@ -1,0 +1,22 @@
+14:21:13.386 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+14:21:13.391 [main] INFO  utils.Log - ++++ Start of test case :++placeAnOrderAsRegisteredCustomer++++++++++++++++++++++
+14:21:13.393 [main] INFO  utils.Log - +++Start time : ++ 2021.11.07.14.21.13+++++++++++++++++++++
+14:21:26.934 [main] INFO  utils.Log - Called the <selectDropDownByVisibleText> on element[[ChromeDriver: chrome on WINDOWS (14649624c47a21086c2b02a6285516bf)] -> css selector: select[name='billing_country']]
+14:21:27.017 [main] INFO  utils.Log - Called the <selectDropDownByVisibleText> on element[[ChromeDriver: chrome on WINDOWS (14649624c47a21086c2b02a6285516bf)] -> css selector: select[name='billing_state']]
+14:21:28.832 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+14:21:28.832 [main] INFO  utils.Log - ++++ End of test case :++placeAnOrderAsRegisteredCustomer+++++++++++++++++++
+14:21:28.833 [main] INFO  utils.Log - +++End time : ++ 2021.11.07.14.21.28+++++++++++++++++++
+14:21:32.445 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+14:21:32.445 [main] INFO  utils.Log - ++++ Start of test case :++placeAnOrderAsUnregisteredCustomer++++++++++++++++++++++
+14:21:32.445 [main] INFO  utils.Log - +++Start time : ++ 2021.11.07.14.21.32+++++++++++++++++++++
+14:21:42.278 [main] INFO  utils.Log - Called the <selectDropDownByVisibleText> on element[[ChromeDriver: chrome on WINDOWS (87ef715c83d63f0742bf580f8e958e61)] -> css selector: select[name='billing_country']]
+14:21:42.491 [main] INFO  utils.Log - Called the <selectDropDownByVisibleText> on element[[ChromeDriver: chrome on WINDOWS (87ef715c83d63f0742bf580f8e958e61)] -> css selector: select[name='billing_state']]
+14:21:45.500 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+14:21:45.501 [main] INFO  utils.Log - ++++ End of test case :++placeAnOrderAsUnregisteredCustomer+++++++++++++++++++
+14:21:45.501 [main] INFO  utils.Log - +++End time : ++ 2021.11.07.14.21.45+++++++++++++++++++
+14:21:48.893 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+14:21:48.893 [main] INFO  utils.Log - ++++ Start of test case :++smokeTest1++++++++++++++++++++++
+14:21:48.893 [main] INFO  utils.Log - +++Start time : ++ 2021.11.07.14.21.48+++++++++++++++++++++
+14:22:02.717 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+14:22:02.718 [main] INFO  utils.Log - ++++ End of test case :++smokeTest1+++++++++++++++++++
+14:22:02.718 [main] INFO  utils.Log - +++End time : ++ 2021.11.07.14.22.02+++++++++++++++++++

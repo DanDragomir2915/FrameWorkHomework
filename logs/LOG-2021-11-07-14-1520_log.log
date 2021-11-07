@@ -1,0 +1,12 @@
+14:15:20.232 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+14:15:20.238 [main] INFO  utils.Log - ++++ Start of test case :++placeAnOrderAsRegisteredCustomer++++++++++++++++++++++
+14:15:20.239 [main] INFO  utils.Log - +++Start time : ++ 2021.11.07.14.15.20+++++++++++++++++++++
+14:15:33.371 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+14:15:33.372 [main] ERROR utils.Log - ++++ Failed of test case :++placeAnOrderAsRegisteredCustomer+++++++++++++++++++
+14:15:33.372 [main] ERROR utils.Log - +++Failed  time : ++ 2021.11.07.14.15.33+++++++++++++++++++
+14:15:33.551 [main] ERROR utils.Log - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for text ('$5.98') to be present in element [[ChromeDriver: chrome on WINDOWS (296de2db1508eeb47d3fba6a502bc534)] -> xpath: //tr[@class='order-total']/td/strong/span/bdi] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CEECEE', ip: '192.168.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\CeeCee\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64632}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 296de2db1508eeb47d3fba6a502bc534
