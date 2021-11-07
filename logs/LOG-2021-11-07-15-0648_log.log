@@ -1,0 +1,32 @@
+15:06:48.808 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+15:06:48.814 [main] INFO  utils.Log - ++++ Start of test case :++smokeTest1++++++++++++++++++++++
+15:06:48.816 [main] INFO  utils.Log - +++Start time : ++ 2021.11.07.15.06.48+++++++++++++++++++++
+15:06:52.986 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+15:06:52.986 [main] ERROR utils.Log - ++++ Failed of test case :++smokeTest1+++++++++++++++++++
+15:06:52.986 [main] ERROR utils.Log - +++Failed  time : ++ 2021.11.07.15.06.52+++++++++++++++++++
+15:06:53.181 [main] ERROR utils.Log - org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //em[text()='Your comment is awaiting moderation.']STERGE because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//em[text()='Your comment is awaiting moderation.']STERGE' is not a valid XPath expression.
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CEECEE', ip: '192.168.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\CeeCee\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65254}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 26982325e1ea21c69ddfb7c244b411d2
+*** Element info: {Using=xpath, value=//em[text()='Your comment is awaiting moderation.']STERGE}
+15:06:56.886 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+15:06:56.886 [main] INFO  utils.Log - ++++ Start of test case :++placeAnOrderAsUnregisteredCustomer++++++++++++++++++++++
+15:06:56.887 [main] INFO  utils.Log - +++Start time : ++ 2021.11.07.15.06.56+++++++++++++++++++++
+15:07:07.890 [main] INFO  utils.Log - Called the <selectDropDownByVisibleText> on element[[ChromeDriver: chrome on WINDOWS (659d21921a323515d30f21fbc6412f6c)] -> css selector: select[name='billing_country']]
+15:07:08.125 [main] INFO  utils.Log - Called the <selectDropDownByVisibleText> on element[[ChromeDriver: chrome on WINDOWS (659d21921a323515d30f21fbc6412f6c)] -> css selector: select[name='billing_state']]
+15:07:10.743 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+15:07:10.743 [main] INFO  utils.Log - ++++ End of test case :++placeAnOrderAsUnregisteredCustomer+++++++++++++++++++
+15:07:10.744 [main] INFO  utils.Log - +++End time : ++ 2021.11.07.15.07.10+++++++++++++++++++
+15:07:14.239 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+15:07:14.239 [main] INFO  utils.Log - ++++ Start of test case :++placeAnOrderAsRegisteredCustomer++++++++++++++++++++++
+15:07:14.239 [main] INFO  utils.Log - +++Start time : ++ 2021.11.07.15.07.14+++++++++++++++++++++
+15:07:27.717 [main] INFO  utils.Log - Called the <selectDropDownByVisibleText> on element[[ChromeDriver: chrome on WINDOWS (416627fee080d79fa28006cc773148dc)] -> css selector: select[name='billing_country']]
+15:07:27.798 [main] INFO  utils.Log - Called the <selectDropDownByVisibleText> on element[[ChromeDriver: chrome on WINDOWS (416627fee080d79fa28006cc773148dc)] -> css selector: select[name='billing_state']]
+15:07:29.603 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+15:07:29.603 [main] INFO  utils.Log - ++++ End of test case :++placeAnOrderAsRegisteredCustomer+++++++++++++++++++
+15:07:29.603 [main] INFO  utils.Log - +++End time : ++ 2021.11.07.15.07.29+++++++++++++++++++
